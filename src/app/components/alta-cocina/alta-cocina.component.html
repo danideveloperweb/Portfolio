@@ -1,0 +1,24 @@
+<h2>Alta de Cocinas</h2>
+<form [formGroup]="formGroup" (ngSubmit)="procesar()">
+  <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Id</label><br>
+      <input type="number" formControlName="id" placeholder="Id"/>
+    </div>
+
+    <div class="mb-3">
+        <label for="exampleFormControlInput1" class="form-label">Marca</label><br>
+    <input type="text" formControlName="marca" placeholder="Marca"/>
+      </div>
+
+      <div class="mb-3">
+      <label for="exampleFormControlInput1" class="form-label">Descripción</label><br>
+      <textarea type="text" formControlName="descripcion" rows="3" placeholder="Descripción"></textarea>
+    </div>
+
+  <div class="mb-3">
+      <button [disabled]="formGroup.invalid">CREAR</button>
+    </div>
+</form>
+
+
+

@@ -1,0 +1,17 @@
+<h2>Lista de Cocinas</h2>
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">MARCA</th>
+      <th scope="col">DESCRIPCIÓN</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let cocina of cocinas">
+      <td>{{cocina.id}}</td>
+      <td>{{cocina.marca}}</td>
+      <td>{{cocina.descripcion}}</td>
+    </tr>
+  </tbody>
+</table>

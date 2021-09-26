@@ -1,0 +1,11 @@
+.container {
+  margin-top: 20px;
+}
+button {
+  margin: 10px;
+  background-color: rgb(238, 183, 164);
+}
+form {
+  border: black 1px solid;
+  border-radius: 5px;
+}

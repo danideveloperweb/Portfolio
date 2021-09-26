@@ -1,27 +1,37 @@
-# Cocinas
+# Vehiculos
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.5.
+Pasos en la creación del proyect.
 
-## Development server
+1.- ng new vehiculos
+2.- se vacia el HTML del componente principal
+3.- se instala y configura json-server
+4.- se define el modelo de objetos JSON en db.json
+5.- se define el modelo de datos en nuestra aplicación: vehiculo.ts
+6.- preparo algunas dependencias. En el modulo principal (AppModule) incorporo: 
+    
+    - ReactiveFormsModule (para controlar los formulatrios)
+    - HttpClientModule (para poder programar mi cliente HTTP)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+7.- programo en environment.ts la URL (http://localhost:3000)
+8.- creo un nuevo servicio (vehiculo.service.ts) para los servicios Http con vehiculos (ng g s services/vehiculo)
 
-## Code scaffolding
+9.- creamos el componente listado-vehiculos.component.ts (ng g c components/listado-vehiculos)
+10.- "pintamos" el ListadoVehiculosComponent en el componente principal. Luego ya se programarán las rutas...
+11.- programamos el ListadoVehiculosComponent y nos aseguramos de que los datos lleguen. (en esta fase va muy bien utilizar el pipe json. ejemplo: {{vehiculos | json}})
+12.- Ahora que llegan los datos, vamos a pintarlos en una tabla de HTML (más o menos bien)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+13.- creamos el componente alta-vehiculo.component.ts (ng g c components/alta-vehiculo)
+14.- creamos el componente home.component.ts (ng g c components/home)
 
-## Build
+14.- configuramos las rutas y el sistema de navegación en el AppComponent (nos podemos basar en pedigest)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+15.- programamos el componente de altas (AltaVehiculoComponent). Nos podemos basar en el alta de productos de pedigest
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+

@@ -1,0 +1,24 @@
+{
+  "Cocinas": [
+    {
+      "id": 1,
+      "marca": "Taurus",
+      "descripcion": "Una gran cocina"
+    },
+    {
+      "id": 2,
+      "marca": "balay",
+      "descripcion": "cocina moderna"
+    },
+    {
+      "id": 3,
+      "marca": "prim",
+      "descripcion": "gran cocina daptable"
+    },
+    {
+      "id": 4,
+      "marca": "Consentino",
+      "descripcion": "última generación en cocinas, adaptadas a las últimas tecnologías"
+    }
+  ]
+}
