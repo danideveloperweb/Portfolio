@@ -2,23 +2,23 @@
   "Cocinas": [
     {
       "id": 1,
-      "marca": "Taurus",
-      "descripcion": "Una gran cocina"
+      "marca": "ARAN CUCINE",
+      "descripcion": "Las cocinas modernas se caracterizan, principalmente, por ser cocinas integradas. Es decir, son cocinas multifuncionales. Antiguamente, las cocinas solo se utilizaban para cocinar. ... A medida que el concepto de cocina ha ido evolucionando, lo ha hecho también el diseño y la decoración de esta zona."
     },
     {
       "id": 2,
-      "marca": "balay",
-      "descripcion": "cocina moderna"
+      "marca": "Arrital",
+      "descripcion": "La definición de una cocina integral supone la integración en un mismo espacio las diferentes partes de las que se compone nuestra cocina: muebles, encimera, electrodomésticos empotrados etc. Su función principal es ser adaptable a cualquier espacio, sin perder en estilo y funcionalidad"
     },
     {
       "id": 3,
-      "marca": "prim",
-      "descripcion": "gran cocina daptable"
+      "marca": "Bauformat",
+      "descripcion": "Como su nombre lo indica, estos dispositivos utilizan únicamente radiación solar, ya sea concentrándola con un reflector parabólico o captando la radiación infrarroja en un caja aislada. Existen varios tipos de estufas que trabajan bajo diferentes procesos sin embargo, el diseño más común es el parabólico."
     },
     {
       "id": 4,
-      "marca": "Consentino",
-      "descripcion": "última generación en cocinas, adaptadas a las últimas tecnologías"
+      "marca": "Block Cocinas",
+      "descripcion": "En resumen, las cocinas Block Cocinas son una alternativa a tener en cuenta si estás planteando una reforma, necesitas algo de inspiración o te encuentras planificando un nuevo proyecto en casa. Por ello, si deseas darle un toque de modernidad a tu hogar no dudes en ponerte en contacto con nuestros expertos de Stylux Cocinas."
     }
   ]
 }
