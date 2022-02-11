@@ -40,7 +40,13 @@
 
 ### 15.- programo el componente de altas (AltaCocinaComponent).
 
+## Listado de cocinas
+
 ![cocina](https://github.com/danideveloperweb/Portfolio/blob/main/src/assets/img/cocina.JPG)
+
+## Alta cocinas
+
+![cocina2](https://github.com/danideveloperweb/Portfolio/blob/main/src/assets/img/cocina2.JPG)
 
 ## Tecnologías
 #### Angular 12,  javascript,  Typescript,  css,  html.
