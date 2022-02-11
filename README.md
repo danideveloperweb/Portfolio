@@ -24,7 +24,7 @@
 
 ### 8.- creo un nuevo servicio (cocina.service.ts) para los servicios Http con vehiculos (ng g s services/cocina)
 
-### ### 9.- creamos el componente listado-cocinas.component.ts (ng g c components/listado-cocinas)
+### 9.- creamos el componente listado-cocinas.component.ts (ng g c components/listado-cocinas)
 
 ### 10.- "pinto" el ListadoCocinasComponent en el componente principal. Luego ya se programarán las rutas...
 
